@@ -15,6 +15,9 @@
 		000EA0C31CB3BB0300B38114 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000EA0C21CB3BB0300B38114 /* SWRevealViewController.m */; };
 		000EA0C51CB3BF8400B38114 /* OurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EA0C41CB3BF8400B38114 /* OurViewController.swift */; };
 		000EA0C71CB3C33C00B38114 /* OurSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EA0C61CB3C33C00B38114 /* OurSecondViewController.swift */; };
+		000EA0C91CB3C53200B38114 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000EA0C81CB3C53200B38114 /* Detail.storyboard */; };
+		000EA0CB1CB3C56900B38114 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EA0CA1CB3C56900B38114 /* DetailViewController.swift */; };
+		000EA0CD1CB3C61700B38114 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EA0CC1CB3C61700B38114 /* MenuTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		000EA0C21CB3BB0300B38114 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		000EA0C41CB3BF8400B38114 /* OurViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurViewController.swift; sourceTree = "<group>"; };
 		000EA0C61CB3C33C00B38114 /* OurSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurSecondViewController.swift; sourceTree = "<group>"; };
+		000EA0C81CB3C53200B38114 /* Detail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		000EA0CA1CB3C56900B38114 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		000EA0CC1CB3C61700B38114 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,9 @@
 				000EA0C01CB3BB0200B38114 /* SlideOutMenu-Bridging-Header.h */,
 				000EA0C41CB3BF8400B38114 /* OurViewController.swift */,
 				000EA0C61CB3C33C00B38114 /* OurSecondViewController.swift */,
+				000EA0C81CB3C53200B38114 /* Detail.storyboard */,
+				000EA0CA1CB3C56900B38114 /* DetailViewController.swift */,
+				000EA0CC1CB3C61700B38114 /* MenuTableViewController.swift */,
 			);
 			path = SlideOutMenu;
 			sourceTree = "<group>";
@@ -138,6 +147,7 @@
 				000EA0B91CB3BAF500B38114 /* LaunchScreen.storyboard in Resources */,
 				000EA0B61CB3BAF500B38114 /* Assets.xcassets in Resources */,
 				000EA0B41CB3BAF500B38114 /* Main.storyboard in Resources */,
+				000EA0C91CB3C53200B38114 /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +159,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				000EA0B11CB3BAF500B38114 /* ViewController.swift in Sources */,
+				000EA0CD1CB3C61700B38114 /* MenuTableViewController.swift in Sources */,
 				000EA0C71CB3C33C00B38114 /* OurSecondViewController.swift in Sources */,
 				000EA0AF1CB3BAF500B38114 /* AppDelegate.swift in Sources */,
+				000EA0CB1CB3C56900B38114 /* DetailViewController.swift in Sources */,
 				000EA0C31CB3BB0300B38114 /* SWRevealViewController.m in Sources */,
 				000EA0C51CB3BF8400B38114 /* OurViewController.swift in Sources */,
 			);
