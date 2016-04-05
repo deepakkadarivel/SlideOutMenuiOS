@@ -12,6 +12,8 @@
 		000EA0B41CB3BAF500B38114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000EA0B21CB3BAF500B38114 /* Main.storyboard */; };
 		000EA0B61CB3BAF500B38114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000EA0B51CB3BAF500B38114 /* Assets.xcassets */; };
 		000EA0B91CB3BAF500B38114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000EA0B71CB3BAF500B38114 /* LaunchScreen.storyboard */; };
+		000EA0C31CB3BB0300B38114 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000EA0C21CB3BB0300B38114 /* SWRevealViewController.m */; };
+		000EA0C51CB3BF8400B38114 /* OurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EA0C41CB3BF8400B38114 /* OurViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,10 @@
 		000EA0B51CB3BAF500B38114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		000EA0B81CB3BAF500B38114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		000EA0BA1CB3BAF500B38114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000EA0C01CB3BB0200B38114 /* SlideOutMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlideOutMenu-Bridging-Header.h"; sourceTree = "<group>"; };
+		000EA0C11CB3BB0300B38114 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		000EA0C21CB3BB0300B38114 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		000EA0C41CB3BF8400B38114 /* OurViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,16 @@
 		000EA0AD1CB3BAF500B38114 /* SlideOutMenu */ = {
 			isa = PBXGroup;
 			children = (
+				000EA0C11CB3BB0300B38114 /* SWRevealViewController.h */,
+				000EA0C21CB3BB0300B38114 /* SWRevealViewController.m */,
 				000EA0AE1CB3BAF500B38114 /* AppDelegate.swift */,
 				000EA0B01CB3BAF500B38114 /* ViewController.swift */,
 				000EA0B21CB3BAF500B38114 /* Main.storyboard */,
 				000EA0B51CB3BAF500B38114 /* Assets.xcassets */,
 				000EA0B71CB3BAF500B38114 /* LaunchScreen.storyboard */,
 				000EA0BA1CB3BAF500B38114 /* Info.plist */,
+				000EA0C01CB3BB0200B38114 /* SlideOutMenu-Bridging-Header.h */,
+				000EA0C41CB3BF8400B38114 /* OurViewController.swift */,
 			);
 			path = SlideOutMenu;
 			sourceTree = "<group>";
@@ -137,6 +147,8 @@
 			files = (
 				000EA0B11CB3BAF500B38114 /* ViewController.swift in Sources */,
 				000EA0AF1CB3BAF500B38114 /* AppDelegate.swift in Sources */,
+				000EA0C31CB3BB0300B38114 /* SWRevealViewController.m in Sources */,
+				000EA0C51CB3BF8400B38114 /* OurViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +261,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SlideOutMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.upbeatios.me.SlideOutMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SlideOutMenu/SlideOutMenu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -260,10 +275,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SlideOutMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.upbeatios.me.SlideOutMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SlideOutMenu/SlideOutMenu-Bridging-Header.h";
 			};
 			name = Release;
 		};
