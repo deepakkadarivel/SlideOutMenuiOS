@@ -14,6 +14,7 @@
 		000EA0B91CB3BAF500B38114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000EA0B71CB3BAF500B38114 /* LaunchScreen.storyboard */; };
 		000EA0C31CB3BB0300B38114 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000EA0C21CB3BB0300B38114 /* SWRevealViewController.m */; };
 		000EA0C51CB3BF8400B38114 /* OurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EA0C41CB3BF8400B38114 /* OurViewController.swift */; };
+		000EA0C71CB3C33C00B38114 /* OurSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000EA0C61CB3C33C00B38114 /* OurSecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		000EA0C11CB3BB0300B38114 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		000EA0C21CB3BB0300B38114 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		000EA0C41CB3BF8400B38114 /* OurViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurViewController.swift; sourceTree = "<group>"; };
+		000EA0C61CB3C33C00B38114 /* OurSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurSecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				000EA0BA1CB3BAF500B38114 /* Info.plist */,
 				000EA0C01CB3BB0200B38114 /* SlideOutMenu-Bridging-Header.h */,
 				000EA0C41CB3BF8400B38114 /* OurViewController.swift */,
+				000EA0C61CB3C33C00B38114 /* OurSecondViewController.swift */,
 			);
 			path = SlideOutMenu;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				000EA0B11CB3BAF500B38114 /* ViewController.swift in Sources */,
+				000EA0C71CB3C33C00B38114 /* OurSecondViewController.swift in Sources */,
 				000EA0AF1CB3BAF500B38114 /* AppDelegate.swift in Sources */,
 				000EA0C31CB3BB0300B38114 /* SWRevealViewController.m in Sources */,
 				000EA0C51CB3BF8400B38114 /* OurViewController.swift in Sources */,
